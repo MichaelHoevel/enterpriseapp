@@ -14,7 +14,7 @@ Test app to learn ruby on rails by videos from edutechional.
 #### Lorem ipsum dolor sit amet
 * Lorem ipsum dolor sit amet
 + Lorem ipsum dolor sit amet
-- Lorem ipsum dolor sit amet
+- Lorem ipsum dolor sit amet.
 
 ###Lorem ipsum dolor sit amet
 1. Lorem ipsum dolor sit amet
