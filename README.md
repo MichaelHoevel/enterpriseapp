@@ -1,24 +1,26 @@
-# README
+Enterprise application
+=======================
+Test app to learn ruby on rails by videos from edutechional.
+------------------------------------------------------------
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+###Checking the possibilities in Ruby.
+[see videos](https://www.youtube.com/watch?v=_gknWWa2OF0&list=PLgYiyoyNPrv-j6vFyXP8mgRyvpRqFkjb8&index=5)
 
-Things you may want to cover:
+>## Lorem ipsum dolor sit amet
+> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+> Lorem ipsum dolor sit **amet**
+> Lorem ipsum *dolor* sit amet
+ 
+#### Lorem ipsum dolor sit amet
+* Lorem ipsum dolor sit amet
++ Lorem ipsum dolor sit amet
+- Lorem ipsum dolor sit amet
 
-* Ruby version
+###Lorem ipsum dolor sit amet
+1. Lorem ipsum dolor sit amet
+2. Lorem ipsum dolor sit amet
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+###Lorem ipsum dolor sit amet
+ `Lorem ipsum dolor sit amet`
+ 
+ 
