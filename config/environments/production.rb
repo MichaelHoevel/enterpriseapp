@@ -56,7 +56,7 @@ Rails.application.configure do
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "enterpriseapp_#{Rails.env}"
   config.action_mailer.perform_caching = false
-  config.action_mailer.default_url_options = {:host => 'smtp.sendgrid.net', port:587}
+  config.action_mailer.default_url_options = {:host => 'enterpriseappmichaelhoevel.herokuapp.com'}
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
 
