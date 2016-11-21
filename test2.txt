@@ -1,0 +1,2 @@
+name	manager	status	terms
+michael	boss	dead	10

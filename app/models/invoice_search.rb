@@ -9,7 +9,7 @@ class InvoiceSearch
   end
 
   def scope
-    Invoice.where('date BETWEEN ? AND ?', @date_from, @date_to)
+    Invoice.where('date(date) >= ? AND date(date) <= ?', @date_from, @date_to)
   end
   private
   def parsed_date (date_string, default)
