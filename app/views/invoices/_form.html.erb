@@ -22,15 +22,10 @@
     <div class= "control-group">
       <%= f.label :company, class: "control-label" %>
       <div class= "controls">
-        <%#= f.text_field :company %>
+        <%= f.text_field :company %>
       </div>
     </div>
-    <div class= "control-group">
-      <%= f.label "Company", class: "control-label" %>
-      <div class= "controls">
-        <%= collection_select(:invoice, :company, Company.all, :name, :name, {}, {:multiple => false, :include_blank => true}) %>
-      </div>
-    </div>
+
 
     <div class= "control-group">
       <%= f.label :tax, class: "control-label" %>
@@ -40,18 +35,18 @@
     </div>
 
     <div class= "control-group">
-      <%= f.label :salesperson, class: "control-label" %>
-      <div class="controls">
-        <%= f.text_field :salesperson %>
+      <%= f.label :employee_id, class: "control-label" %>
+      <div class= "controls">
+        <%= collection_select(:invoice, :employee_id, Employee.all, :id, :name, {}, {:multiple => false} ) %>
       </div>
     </div>
 
-      <div class= "control-group">
-        <%= f.label "Status", class: "control-label" %>
-        <div class="controls">
-          <%= f.select(:status_type, options_for_select([['PAID', 'PAID'],['PENDING', 'PENDING']]), {include_blank:true}) %>
-        </div>
+    <div class= "control-group">
+      <%= f.label "Status", class: "control-label" %>
+      <div class="controls">
+        <%= f.select(:status_type, options_for_select([['PAID', 'PAID'],['PENDING', 'PENDING']]), {include_blank:true}) %>
       </div>
+    </div>
 
     <div class="control-group">
       <div class="controls">
