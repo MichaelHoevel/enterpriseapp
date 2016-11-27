@@ -42,9 +42,9 @@
     </div>
 
     <div class= "control-group">
-      <%= f.label "Status", class: "control-label" %>
+      <%= f.label :status_type, class: "control-label" %>
       <div class="controls">
-        <%= f.select(:status_type, options_for_select([['PAID', 'PAID'],['PENDING', 'PENDING']]), {include_blank:true}) %>
+        <%= f.select :status_type, ([['PAID', 'PAID'],['PENDING', 'PENDING']]), :prompt => 'Select the status' %>
       </div>
     </div>
 
