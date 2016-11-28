@@ -18,7 +18,7 @@
 @import "bootstrap";
 
 body {
-  background-image: url("background.jpg");
+  background-image: asset-data-url("background.jpg");
   background-size: cover;
   height: auto;
   width: auto;
