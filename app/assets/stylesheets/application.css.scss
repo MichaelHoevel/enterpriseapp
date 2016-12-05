@@ -195,6 +195,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #fed136;
+  margin-left: -150px;
   font-family: "Pacifico", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
@@ -321,11 +322,11 @@ header .intro-text .intro-heading {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 10px 10px 10px 10px;
 }
 section h2.section-heading {
   font-size: 40px;
-  margin-top: 0;
+  margin-top: 0px;
   margin-bottom: 15px;
 }
 section h3.section-subheading {
@@ -338,7 +339,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 80px;
   }
 }
 .service-heading {
